@@ -1,0 +1,4 @@
+*
+*.md
+!elasticky.js
+!elasticky.d.ts

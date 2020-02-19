@@ -1,0 +1,48 @@
+{
+	"name": "elasticky",
+	"version": "0.1.1",
+	"description": "asdfasdf",
+	"main": "elasticky.js",
+	"scripts": {
+		"dev": "gulp dev",
+		"build": "gulp build",
+		"prepublishOnly": "npm run build"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:hugsmidjan/elasticky.git"
+	},
+	"author": "Hugsmiðjan ehf (https://www.hugamidjan.is)",
+	"contributors": [
+		"Már Örlygsson (http://mar.anomy.net)"
+	],
+	"license": "MIT",
+	"private": false,
+	"devDependencies": {
+		"@hugsmidjan/gulp-rollup": "^0.3.19",
+		"@hugsmidjan/hxmstyle": "^2.3.1",
+		"@typescript-eslint/eslint-plugin": "^2.6.1",
+		"@typescript-eslint/parser": "^2.6.1",
+		"eslint": "^6.6.0",
+		"eslint-config-prettier": "^6.5.0",
+		"eslint-plugin-destructuring": "^2.1.0",
+		"eslint-plugin-prettier": "^3.1.1",
+		"gulp": "^4.0.2",
+		"prettier": "^1.18.2",
+		"typescript": "^3.7.5"
+	},
+	"hxmstyle": {
+		"options": {
+			"typescript": true
+		},
+		"dependenciesAdded": [
+			"@typescript-eslint/eslint-plugin",
+			"@typescript-eslint/parser",
+			"eslint",
+			"eslint-config-prettier",
+			"eslint-plugin-destructuring",
+			"eslint-plugin-prettier",
+			"prettier"
+		]
+	}
+}
